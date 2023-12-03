@@ -1,0 +1,74 @@
+#frontend {
+    position: relative;
+    height: 300px;
+    width: 600px;
+    color: white;
+    
+    background-color: lightblue;
+}
+
+#frontname {
+    position: relative;
+    left: 125px;
+    top: 25px;
+    font-size: 500%;
+}
+#frontdesc {
+    position: relative;
+    left: 60px;
+    font-size: 300%;
+}
+#mainpart {
+    position : relative;
+    top : 100px;
+    left : 40vw;
+}
+
+textarea {
+    height : 15px;
+    width : 150px;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.fa-search {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.fa-map-marker-alt {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+button {
+    position : relative;
+    bottom : 6.5px;
+    top: 50px;
+    left: 100px;
+}
+
+table {
+    position:relative;
+    top: 100px;
+}
+
+
+table, td {
+    position : relative;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+

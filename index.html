@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        </style>
+    </head>
+
+    <body>
+
+        
+        <div id="mainpart">
+            <div id="frontend">
+               <span id="frontname">
+                    Instantjob
+               </span>
+               <p id="frontdesc">
+                    Your door to the future
+               </p>
+            </div>
+            <i class="fas fa-search" style="color: lightblue;"></i>
+            <textarea id="input1"></textarea>
+            <i class="fas fa-map-marker-alt" style="color: lightblue;"></i>
+            <textarea id="input2"></textarea>
+            <button id="search" onclick="HandleInputs()"> search</button>
+            <!-- <div id="result"></div> !-->
+            <div id="result"></div>
+            <table id="result_table">
+                <tr id="elements"></tr>
+
+                <span id="count"></span>
+            </table>
+
+        </div>
+        
+        <script src="scaricabile.js"></script>
+    </body>
+</html>
