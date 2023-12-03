@@ -146,7 +146,7 @@ let countries = [
 let countryCol = [   // background / text
   "blue",         
   "blueviolet",   
-  "blueviolet",  
+  "yellow",  
   "red",         
   "burlywood",    
   "chocolate",    
@@ -158,11 +158,11 @@ let countryCol = [   // background / text
 let textCol = [
   "white",
   "white",
+  "black",
   "white",
+  "black",
   "white",
-  "white",
-  "white",
-  "white",
+  "black",
   "white",
   "white"
 ]
